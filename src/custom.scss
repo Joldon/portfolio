@@ -1,7 +1,31 @@
-// $body-bg: black;
-body {
-    color: white;
-    background-color: black;
-}
+$body-bg: black;
+$body-color: #e6dedd;
+
+
+// body {
+//     color: hsl(100, 11%, 95%);
+//     background-color: rgb(0, 0, 0);
+//     margin-left: 5px;
+// }
+
+// :root {
+//     --cyan: @17a2b8;
+// }
 
 @import '~bootstrap/scss/bootstrap.scss';
+// @import "../node_modules/bootstrap/scss/bootstrap";
+
+$theme-colors: (
+  "primary": #c5d7bd,
+  "secondary": #9fb8ad ,
+  "third": #383e56,
+  "fourth": #fb743e,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+);
+
+@import "bootstrap";
