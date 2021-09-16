@@ -1,25 +1,25 @@
-import React from 'react'
-import '../custom.scss'
-import '../App.css'
+// import React from 'react'
+// import '../custom.scss'
+// import '../App.css'
 
-import { Card, CardTitle, CardText, Row, Col } from 'reactstrap';
+// import { Card, CardTitle, CardText, Row, Col } from 'reactstrap';
 
 
 
-const Skills = () => {
-    return (
-        <div className='Skillcard bg-black'>
-            <Row>
-            <Col sm="6">
-                <Card body>
-                <CardTitle tag="h5">Skills</CardTitle>
-                <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+// const Skills = () => {
+//     return (
+//         <div className='Skillcard bg-black mb-5'>
+            // <Row>
+            // <Col sm="6">
+            //     <Card body>
+            //     <CardTitle tag="h5">Skills</CardTitle>
+            //     <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
                 
-                </Card>
-            </Col>
-            </Row>
-        </div>
-    )
-}
+            //     </Card>
+            // </Col>
+            // </Row>
+//         </div>
+//     )
+// }
 
-export default Skills
+// export default Skills

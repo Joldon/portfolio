@@ -20,7 +20,7 @@ const Header = (props) => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
     return (
-        <div>
+        <div className='Header'>
             <Navbar className="ps-2 my-5" color="success" light expand="md">
             <NavbarBrand href="/">Projects</NavbarBrand>
             <NavbarToggler onClick={toggle} />
