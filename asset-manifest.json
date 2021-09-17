@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Joldon/portfolio/static/css/main.5c1e99d3.chunk.css",
+    "main.js": "/Joldon/portfolio/static/js/main.66391c50.chunk.js",
+    "main.js.map": "/Joldon/portfolio/static/js/main.66391c50.chunk.js.map",
+    "runtime-main.js": "/Joldon/portfolio/static/js/runtime-main.38e770f5.js",
+    "runtime-main.js.map": "/Joldon/portfolio/static/js/runtime-main.38e770f5.js.map",
+    "static/css/2.983f79de.chunk.css": "/Joldon/portfolio/static/css/2.983f79de.chunk.css",
+    "static/js/2.03b3566d.chunk.js": "/Joldon/portfolio/static/js/2.03b3566d.chunk.js",
+    "static/js/2.03b3566d.chunk.js.map": "/Joldon/portfolio/static/js/2.03b3566d.chunk.js.map",
+    "static/js/3.24b91bda.chunk.js": "/Joldon/portfolio/static/js/3.24b91bda.chunk.js",
+    "static/js/3.24b91bda.chunk.js.map": "/Joldon/portfolio/static/js/3.24b91bda.chunk.js.map",
+    "index.html": "/Joldon/portfolio/index.html",
+    "static/css/2.983f79de.chunk.css.map": "/Joldon/portfolio/static/css/2.983f79de.chunk.css.map",
+    "static/css/main.5c1e99d3.chunk.css.map": "/Joldon/portfolio/static/css/main.5c1e99d3.chunk.css.map",
+    "static/js/2.03b3566d.chunk.js.LICENSE.txt": "/Joldon/portfolio/static/js/2.03b3566d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38e770f5.js",
+    "static/css/2.983f79de.chunk.css",
+    "static/js/2.03b3566d.chunk.js",
+    "static/css/main.5c1e99d3.chunk.css",
+    "static/js/main.66391c50.chunk.js"
+  ]
+}
