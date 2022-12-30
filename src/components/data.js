@@ -30,7 +30,7 @@ export const repos = [
     title: "Covid Dashboard",
     subtitle: "React and Reactstrap",
     description:
-      "A covid dashboard with a BarChart, a MultiChart, and a LineChart. These charts visualize some statistical information with cases from a sample number of countries. The charts demonstrate various correlations between covid cases, covid deaths, time distribution and other factors",
+      "A covid dashboard with a BarChart, a MultiChart, and a LineChart. These interactive charts visualize some statistical information with cases from a sample number of countries. The charts demonstrate various correlations between covid cases, covid deaths, time distribution and other factors",
     image: "../assets/worldmap.jpg",
     livelink: "https://joldon.github.io/covid-dashboard/",
     codelink: "https://github.com/Joldon/covid-dashboard",
@@ -47,7 +47,8 @@ export const repos = [
   {
     title: "News App",
     subtitle: "React and React Router",
-    description: "A simple news app with a newslist and a newsdetail board",
+    description:
+      "A simple news app with a newslist and a newsdetail board. The news are fetched from an external API",
     image: "../assets/worldmap.jpg",
     livelink: "https://joldon.github.io/master-detail/",
     codelink: "https://github.com/Joldon/master-detail",
