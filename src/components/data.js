@@ -48,7 +48,7 @@ export const repos = [
     title: "News App",
     subtitle: "React and React Router",
     description:
-      "A simple news app with a newslist and a newsdetail board. The news are fetched from an external API",
+      "A simple news app with a newslist and a newsdetail board. The news list is fetched from an external API and individual news items can be viewed in the newsdetail board",
     image: "../assets/worldmap.jpg",
     livelink: "https://joldon.github.io/master-detail/",
     codelink: "https://github.com/Joldon/master-detail",
