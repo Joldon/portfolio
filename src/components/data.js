@@ -1,12 +1,12 @@
 export const repos = [
   {
-    title: "Animals",
-    subtitle: "MERN stack",
+    title: "Conflict Maps",
+    subtitle: "React and D3",
     description:
-      "Animals is a website that features funny animals. The API with animals was  first created in and fetched from Contentful but then relocated to the MongoDB server. The app was built using React, SCSS, Reactstrap and React-Router",
+      "An interactive map with the conflict data from the Uppsala Conflict Data Program, the biggest conflict dataset that comprises more than 250000 conflict events. Through a dropdown menu, this app allows to filter the conflict data by the the conflict type, the conflict intensity, and the conflict location on a choropleth map.",
     image: "https://unsplash.com/photos/Uk3t05ndSng",
-    livelink: "https://joldon.github.io/animal_frontend/",
-    codelink: "https://github.com/Joldon/animal_frontend",
+    livelink: "https://joldon.github.io/conflict-maps/",
+    codelink: "https://github.com/Joldon/conflict-maps",
   },
   {
     title: "Animals Server",
