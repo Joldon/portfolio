@@ -4,6 +4,9 @@ export const repos = [
     subtitle: "React and D3",
     description:
       "An interactive map with the conflict data from the Uppsala Conflict Data Program, the biggest conflict dataset that comprises more than 250000 conflict events. Through a dropdown menu, this app allows to filter the conflict data by the the conflict type, the conflict intensity, and the conflict location on a choropleth map.",
+
+    image: "https://unsplash.com/photos/Uk3t05ndSng",
+
     livelink: "https://joldon.github.io/conflict-maps/",
     codelink: "https://github.com/Joldon/conflict-maps",
   },
