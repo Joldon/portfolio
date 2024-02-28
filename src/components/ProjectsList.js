@@ -1,29 +1,61 @@
-import React from 'react'
+import React from "react";
 // import Projects from './Projects'
-import { repos } from './data'
-import '../App.css'
+import { repos } from "./data";
+import "../App.css";
 import {
-    Card, Button, CardImg, CardTitle, CardText,
-    CardSubtitle, CardBody
-  } from 'reactstrap';
+  Card,
+  Button,
+  CardImg,
+  CardTitle,
+  CardText,
+  CardSubtitle,
+  CardBody,
+} from "reactstrap";
 
 const ProjectsList = () => {
-    return (
-    <div className='ProjectsList mb-5'>
-        {repos.map((repo, index) => {
-          return (
-            <Card key={index} className="Project text-white bg-dark color-light border-success">
-                <CardImg className="img-fluid" top width="100%" src={repo.image} alt='' />
-                <CardBody>
-                    <CardTitle tag="h4">{repo.title}</CardTitle>
-                    <CardSubtitle tag="h5" className="mb-2 text-muted">{repo.subtitle}</CardSubtitle>
-                    <CardText tag='h6'>{repo.description}</CardText>
-                    <Button type='button' className='Live btn me-md-2' href={repo.livelink} target='blank'>live</Button>
-                    <Button type='button' className='Code btn ms-md-2' href={repo.codelink} target='blank'>code</Button>
-                </CardBody>
-            </Card>
-          );
-        })}
+  return (
+    <div className="ProjectsList mb-5">
+      {repos.map((repo, index) => {
+        return (
+          <Card
+            key={index}
+            className="Project text-white bg-dark color-light border-success"
+          >
+            <CardImg
+              className="img-fluid"
+              top
+              width="100%"
+              src={repo.image}
+              alt=""
+            />
+            <CardBody>
+              <CardTitle tag="h4">{repo.title}</CardTitle>
+              <CardSubtitle tag="h5" className="mb-2 text-muted">
+                {repo.subtitle}
+              </CardSubtitle>
+              <CardText tag="h6">{repo.description}</CardText>
+              {repo.livelink !== "" && (
+                <Button
+                  type="button"
+                  className="Live btn me-md-2"
+                  href={repo.livelink}
+                  target="blank"
+                >
+                  live
+                </Button>
+              )}
+              <Button
+                type="button"
+                className="Code btn ms-md-2"
+                href={repo.codelink}
+                target="blank"
+              >
+                code
+              </Button>
+            </CardBody>
+          </Card>
+        );
+      })}
 
       {/* {repos.map((repo) => (
         <a
@@ -49,7 +81,7 @@ const ProjectsList = () => {
         </a>
       ))} */}
     </div>
-    )
-}
+  );
+};
 
-export default ProjectsList
+export default ProjectsList;
