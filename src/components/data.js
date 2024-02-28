@@ -4,7 +4,9 @@ export const repos = [
     subtitle: "React and D3",
     description:
       "An interactive map with the conflict data from the Uppsala Conflict Data Program, the biggest conflict dataset that comprises more than 250000 conflict events. Through a dropdown menu, this app allows to filter the conflict data by the the conflict type, the conflict intensity, and the conflict location on a choropleth map.",
+
     image: "https://unsplash.com/photos/Uk3t05ndSng",
+
     livelink: "https://joldon.github.io/conflict-maps/",
     codelink: "https://github.com/Joldon/conflict-maps",
   },
@@ -36,21 +38,21 @@ export const repos = [
     codelink: "https://github.com/Joldon/covid-dashboard",
   },
   {
-    title: "Autoquartett - a card game",
-    subtitle: "React and Contentful",
+    title: "Data Pipelines with MySQL and AWS",
+    subtitle: "Python/Pandas, MySQl, AWS",
     description:
-      "An entertaining card game with characters created with and fetched from Contentful",
+      "This project builds a data pipeline using Python/Pandas, MySQL, AWS clouding (RDS, Lambda Function)",
     image: "../assets/worldmap.jpg",
-    livelink: "https://joldon.github.io/autoquartett/",
-    codelink: "https://github.com/Joldon/autoquartett",
+    livelink: "",
+    codelink: "https://github.com/Joldon/data_pipelines_cloud",
   },
   {
-    title: "News App",
-    subtitle: "React and React Router",
+    title: "Chuck Norris Quotes",
+    subtitle: "Next.js, Tailwind, Prisma, TypeScript",
     description:
-      "A simple news app with a newslist and a newsdetail board. The news list is fetched from an external API and individual news items can be viewed in the newsdetail board",
+      "This web application is a fun, engaging platform showcasing a curated list of Chuck Norris quotes, with a focus on software development humor. It's designed to be responsive, intuitive, and enjoyable for developers and tech enthusiasts alike.",
     image: "../assets/worldmap.jpg",
-    livelink: "https://joldon.github.io/master-detail/",
-    codelink: "https://github.com/Joldon/master-detail",
+    livelink: "https://chuck-prisma.vercel.app/",
+    codelink: "https://github.com/Joldon/chuck-prisma",
   },
 ];
